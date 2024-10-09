@@ -24,4 +24,4 @@ curl -sSL https://raw.githubusercontent.com/ImMALWARE/bash-warp-generator/main/w
 1. Запускаем Амнезию (Софт для туннелирования трафика)
 2. Импортируем ранее скаченный конфиг
 3. Жмём `Подключить`
----
+ 
