@@ -16,7 +16,7 @@ getshell()
 getshell(height=400)
 ```
 4. Откроеться терминал в терминале. В новое окно терминала вставляем и ждем:
-```bash
+```batch
 curl -sSL https://raw.githubusercontent.com/ImMALWARE/bash-warp-generator/main/warp_generator.sh | bash
 ```
 5. Переходим по сгенерировавшейся ссылке (если не жмется, копируем и вставляем в адресную строку ручками) и качаем файл `WARP.conf` (Загрузка начнется автоматически)
