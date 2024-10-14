@@ -1,5 +1,5 @@
-# Обход блокировки Discord с рабочим Войсом (GoogleColab)
-### Качаем софт
+# Настройка Amazonia WireGuard (GoogleColab)
+### Качаем саму ВГшку
 Тут все просто, тупо качаем софт для туннелирования трафика с [Github](https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-amd64-1.0.0.msi).
 ### Качаем файл конфигурации
 1. Перейти на [Colaboratoty](https://colab.research.google.com/)
