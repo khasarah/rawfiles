@@ -1,27 +1,14 @@
-# Настройка Amazonia WireGuard (GoogleColab)
-### Качаем саму ВГшку
-Тут все просто, тупо качаем софт для туннелирования трафика с [Github](https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-amd64-1.0.0.msi).
-### Качаем файл конфигурации
-1. Перейти на [Colaboratoty](https://colab.research.google.com/)
-2. Долистать до любого терминала
-3. Вставить туда поочередно и запустить:
-```python
-pip install google-colab-shell
-```
-```python
-from google_colab_shell import getshell
-```
-```python
-getshell()
-getshell(height=400)
-```
-4. Откроеться терминал в терминале. В новое окно терминала вставляем и ждем:
-```batch
-curl -sSL https://raw.githubusercontent.com/ImMALWARE/bash-warp-generator/main/warp_generator.sh | bash
-```
-5. Переходим по сгенерировавшейся ссылке (если не жмется, копируем и вставляем в адресную строку ручками) и качаем файл `WARP.conf` (Загрузка начнется автоматически)
-### Запуск софта
-1. Запускаем Амнезию (Софт для туннелирования трафика)
-2. Импортируем ранее скаченный конфиг
-3. Жмём `Подключить`
- 
+# Настройка Amazonia WireGuard (Terminator.Aeza.Net)
+1. Качаем прогу, если нет:
+   - [Для ПК](https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-amd64-1.0.0.msi)
+   - На Ведроиде или Иосе ищем в магазинах `AmneziaVPN` или `AmneziaWG` (ВПН более продвинутся типа, но для конфига хватает и ВГ)
+2. Переходим на [Аезу](https://terminator.aeza.net/en/)
+   - Выбираем `Debian`, ждём, пока Аеза даст доступ к терминалу (Очередь типа).
+   - Далее вставляем `curl -sSL https://raw.githubusercontent.com/ImMALWARE/bash-warp-generator/main/warp_generator.sh | bash`, ждём появления ссылки. (Выглядит примерно так: `Скачать конфиг по ссылке: https://immalware-бла-бла-бла...`)
+   - Копируем сгенерированную ссылку и вставялем в адресную строку, переходим.
+   - Начнется автоматическая загрузка конфига `WARP.conf`, если не началась, нажмите кнопку слева сверху.
+   - Если нам оно надо на телефоне, перекидываем файлик с пк на телефон (Да, проще сгенерировать его на пк, а потом уже скинуть на телефончик, но можно сделать это и напрямую с мобилки)
+   - Заходим в ВГ, импортируем файл конфигурации, врубаем, наслаждаемся.
+---
+### Ссылки на автора скрипта, генерирующий конфиг с более подробной инфой:
+- [*Github*](https://github.com/ImMALWARE/bash-warp-generator) × [*Telegram*](https://t.me/immalware)
