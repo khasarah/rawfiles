@@ -1,4 +1,6 @@
-# Настройка Amazonia WireGuard (Terminator.Aeza.Net)
+# Настройка Amnezia WireGuard (Terminator.Aeza.Net)
+⚠️ Чтобы амнезия работала, нужно вырубить все гудбаи и прочие альтернативы ⚠️
+
 1. Качаем прогу, если нет:
    - [Для ПК](https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-amd64-1.0.0.msi)
    - На Ведроиде или Иосе ищем в магазинах `AmneziaVPN` или `AmneziaWG` (ВПН более продвинутая типа, но для конфига хватает и ВГ)
