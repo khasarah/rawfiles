@@ -1,5 +1,5 @@
 # Настройка Amnezia WireGuard (Terminator.Aeza.Net)
-⚠️ Чтобы амнезия работала, нужно вырубить все гудбаи и прочие альтернативы ⚠️
+⚠️ Чтобы амнезия работала, нужно вырубить (деинсталировать) все гудбаи и прочие альтернативы ⚠️
 
 1. Качаем прогу, если нет:
    - [Для ПК](https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-amd64-1.0.0.msi)
