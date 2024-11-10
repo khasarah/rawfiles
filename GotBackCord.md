@@ -4,6 +4,7 @@
 1. Качаем прогу, если нет:
    - [Для ПК](https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-amd64-1.0.0.msi)
    - На Ведроиде или Иосе ищем в магазинах `AmneziaVPN` или `AmneziaWG` (ВПН более продвинутая типа, но для конфига хватает и ВГ)
+     *UPD: AmneziaVPN более не доступен в Google Play Market, ищите на сторонних сайтах*
 2. Переходим на [Аезу](https://terminator.aeza.net/en/)
    - Выбираем `Debian`, ждём, пока Аеза даст доступ к терминалу (Очередь типа).
    - Далее вставляем ```curl -sSL https://raw.githubusercontent.com/ImMALWARE/bash-warp-generator/main/warp_generator.sh | bash```, ждём появления ссылки. (Выглядит примерно так: `Скачать конфиг по ссылке: https://immalware-бла-бла-бла...`) ⚠️ *`CTRL`*+*`C`* и *`CTRL`*+*`V`* в терминале не работают!
